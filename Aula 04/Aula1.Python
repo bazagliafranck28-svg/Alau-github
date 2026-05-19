@@ -1,0 +1,64 @@
+# f = (formatra linha)
+# input = (guarada informação)
+# print = (mostra na tela) 
+# (\n) = quebra de linha
+# int (ineiro)
+# else (caso contrario)
+# float (casa decimais)
+# and ()
+
+
+print(" === Lanchonete do Fudencio === ")
+
+nome_cliente= input("Por favor digite seu nome: ")
+
+print(f"Olá {nome_cliente}! É um prazer atender você")
+
+print("-"*30)
+
+# Exibindo o Cardápio
+print("🍗"*4, " Cardápio ", "🍗"*4 )
+
+print(" 1. Hambúrguer Clássico - R$ 25.00")
+print(" 2. coxinha catupiri - R$ 9.00")
+print(" 3. pastel de carne - R$ 7.00")
+print(" 4. Hambúrguer Clássico - R$ 8.00")
+
+
+
+print("="*34)
+# Aqui começa o pedido
+print("\n Faça seu pedido: ")
+qtd_hamburguer = int(input("Quantos hamburguer você deseja? "))
+qtd_coxinha = int(input("Quantas coxinha você deseja? "))
+qtd_pastel = int(input("Quantos pastel você deseja? "))
+qtd_refri = int(input("Quantos refrigerantes você deseja? "))
+
+# Processamento
+total_hamburguer = qtd_hamburguer * 25.00
+total_refri = qtd_hamburguer * 8.00
+total_coxinha = qtd_coxinha * 9.00
+total_pastel = qtd_pastel * 7.00
+
+# total_conta = total_hamburguer + total_refri
+
+# Fechando o pedido
+print("\n" + "="*34)
+print(" "*10, "CUPOM FISCAL", " "*10)
+print("="*34)
+print(f"Cliente: {nome_cliente}")
+print(f"Total de hamburguer: R$ {total_hamburguer} ")
+print(f"Total de refri: R$ {total_refri} ")
+print(f"Total de coxinha: R$ {total_coxinha} ")
+print(f"Total de pastel: R$ {total_pastel} ")
+print("-"*34)
+print(f"VALOR TOTAL A PAGRA: R$ {total_hamburguer + total_refri + total_pastel + total_coxinha }")
+print("TOTAL CONTA")
+print("-"*10, "VOLTE SEMPRE", "-"*10)
+
+
+
+
+
+
+

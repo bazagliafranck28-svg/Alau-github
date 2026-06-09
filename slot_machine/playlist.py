@@ -12,5 +12,5 @@
 playlist = ["camila", "Veneto no litoral","Há Tempos","Sobre o tempo"]
 
 for musica in playlist:
-    print(musica)
+    print(playlist)
     break

@@ -3,4 +3,5 @@ def formatar_real(valor):
 
 # Exemplo de uso
 preco_hospedagem = float(input("Digite o valor da hospedagem: "))
-print(formatar_real(preco_hospedagem))  # Saída: R$ 49,90
+print(formatar_real(preco_hospedagem))  # R$ 49,90
+

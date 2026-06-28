@@ -4,4 +4,4 @@ def mostrar_nome():
     print(nome) #javascript
 
 mostrar_nome()
-print(nome) #Python
+print(nome)
